@@ -1,0 +1,19 @@
+#
+# Author: Lasse Collin
+#
+# This file has been put into the public domain.
+# You can do whatever you want with this file.
+#
+
+prefix=/Users/abhinavnagaboyina/Documents/Langchain/myenv
+exec_prefix=/Users/abhinavnagaboyina/Documents/Langchain/myenv
+libdir=/Users/abhinavnagaboyina/Documents/Langchain/myenv/lib
+includedir=/Users/abhinavnagaboyina/Documents/Langchain/myenv/include
+
+Name: liblzma
+Description: General purpose data compression library
+URL: https://tukaani.org/xz/
+Version: 5.4.2
+Cflags: -I${includedir}
+Libs: -L${libdir} -llzma
+Libs.private: -pthread -lpthread

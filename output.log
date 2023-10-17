@@ -52,57 +52,6 @@ public class AddTwoNumbers {
 }
 ```
 
-This code prompts the user to enter two numbers, adds them together, and then displays the sum.[0m
-[32m2023-10-16 16:35:24.701[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m41[0m - [1mCertainly! Here's a simple code snippet in Java that adds two numbers:
-
-```java
-import java.util.Scanner;
-
-public class AddTwoNumbers {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Enter the first number: ");
-        int num1 = scanner.nextInt();
-
-        System.out.print("Enter the second number: ");
-        int num2 = scanner.nextInt();
-
-        int sum = num1 + num2;
-        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
-
-        scanner.close();
-    }
-}
-```
-
-This code prompts the user to enter two numbers, adds them together, and then displays the sum.[0m
-[32m2023-10-16 16:35:24.701[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m41[0m - [1mCertainly! Here's a simple code snippet in Java that adds two numbers:
-
-```java
-import java.util.Scanner;
-
-public class AddTwoNumbers {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Enter the first number: ");
-        int num1 = scanner.nextInt();
-
-        System.out.print("Enter the second number: ");
-        int num2 = scanner.nextInt();
-
-        int sum = num1 + num2;
-        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
-
-        scanner.close();
-    }
-}
-```
-
-This code prompts the user to enter two numbers, adds them together, and then displays the sum.[0m
-
-
 [1m> Entering new LLMChain chain...[0m
 Prompt after formatting:
 [32;1m[1;3mYou are a helpful assistant that generates add three numbers code in C++.[0m

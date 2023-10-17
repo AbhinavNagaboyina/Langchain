@@ -26,7 +26,7 @@ code_input = st.text_area("Enter your prompt here:")
 programming_languages = ["Python","Java","C++"]
 selected_language = st.selectbox("Select a programming language:", programming_languages)
 
-sample_ip = st.number_input("Please enter the sample inputs")
+sample_ip = st.text_area("Please enter the sample inputs")
 
 
 langchain.llm_cache = InMemoryCache()

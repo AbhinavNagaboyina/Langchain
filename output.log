@@ -52,6 +52,57 @@ public class AddTwoNumbers {
 }
 ```
 
+This code prompts the user to enter two numbers, adds them together, and then displays the sum.[0m
+[32m2023-10-16 16:35:24.701[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m41[0m - [1mCertainly! Here's a simple code snippet in Java that adds two numbers:
+
+```java
+import java.util.Scanner;
+
+public class AddTwoNumbers {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the first number: ");
+        int num1 = scanner.nextInt();
+
+        System.out.print("Enter the second number: ");
+        int num2 = scanner.nextInt();
+
+        int sum = num1 + num2;
+        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
+
+        scanner.close();
+    }
+}
+```
+
+This code prompts the user to enter two numbers, adds them together, and then displays the sum.[0m
+[32m2023-10-16 16:35:24.701[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m41[0m - [1mCertainly! Here's a simple code snippet in Java that adds two numbers:
+
+```java
+import java.util.Scanner;
+
+public class AddTwoNumbers {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("Enter the first number: ");
+        int num1 = scanner.nextInt();
+
+        System.out.print("Enter the second number: ");
+        int num2 = scanner.nextInt();
+
+        int sum = num1 + num2;
+        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
+
+        scanner.close();
+    }
+}
+```
+
+This code prompts the user to enter two numbers, adds them together, and then displays the sum.[0m
+
+
 [1m> Entering new LLMChain chain...[0m
 Prompt after formatting:
 [32;1m[1;3mYou are a helpful assistant that generates add three numbers code in C++.[0m
@@ -763,3 +814,62 @@ Prompt after formatting:
 [32;1m[1;3mplease pass the given sample input data 3.0 to the {'text': 'factorial code', 'lang': 'Python', 'code': 'Certainly! Here\'s a Python code snippet that calculates the factorial of a given number:\n\n```python\ndef factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)\n\n# Example usage\nnum = int(input("Enter a number: "))\nresult = factorial(num)\nprint("Factorial of", num, "is", result)\n```\n\nTo use this code, you can call the `factorial()` function with the desired number as an argument. The function uses recursion to calculate the factorial. If the input number is 0, it returns 1. Otherwise, it multiplies the number by the factorial of the number minus 1.\n\nNote: The factorial function is only defined for non-negative integers.'}.[0m
 
 [1m> Finished chain.[0m
+
+
+[1m> Entering new LLMChain chain...[0m
+Prompt after formatting:
+[32;1m[1;3mYou are a helpful assistant that generates factorial of a number code in C++.[0m
+
+[1m> Finished chain.[0m
+[32m2023-10-16 22:18:54.962[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m48[0m - [1m{'text': 'factorial of a number', 'lang': 'C++', 'code': 'Certainly! Here\'s a code snippet that calculates the factorial of a number in C++:\n\n```cpp\n#include <iostream>\n\n// Function to calculate factorial\nint factorial(int n) {\n    if (n == 0 || n == 1) {\n        return 1;\n    } else {\n        return n * factorial(n - 1);\n    }\n}\n\nint main() {\n    int num;\n    std::cout << "Enter a number: ";\n    std::cin >> num;\n\n    // Calculate factorial\n    int result = factorial(num);\n\n    std::cout << "Factorial of " << num << " is " << result << std::endl;\n\n    return 0;\n}\n```\n\nIn this code, the `factorial` function is defined to calculate the factorial of a given number `n`. It uses recursion to repeatedly multiply `n` with the factorial of `n-1` until `n` becomes 0 or 1. The `main` function prompts the user to enter a number, calls the `factorial` function, and displays the result.'}[0m
+[32m2023-10-16 22:18:54.962[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m48[0m - [1m{'text': 'factorial of a number', 'lang': 'C++', 'code': 'Certainly! Here\'s a code snippet that calculates the factorial of a number in C++:\n\n```cpp\n#include <iostream>\n\n// Function to calculate factorial\nint factorial(int n) {\n    if (n == 0 || n == 1) {\n        return 1;\n    } else {\n        return n * factorial(n - 1);\n    }\n}\n\nint main() {\n    int num;\n    std::cout << "Enter a number: ";\n    std::cin >> num;\n\n    // Calculate factorial\n    int result = factorial(num);\n\n    std::cout << "Factorial of " << num << " is " << result << std::endl;\n\n    return 0;\n}\n```\n\nIn this code, the `factorial` function is defined to calculate the factorial of a given number `n`. It uses recursion to repeatedly multiply `n` with the factorial of `n-1` until `n` becomes 0 or 1. The `main` function prompts the user to enter a number, calls the `factorial` function, and displays the result.'}[0m
+[32m2023-10-16 22:18:54.962[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m48[0m - [1m{'text': 'factorial of a number', 'lang': 'C++', 'code': 'Certainly! Here\'s a code snippet that calculates the factorial of a number in C++:\n\n```cpp\n#include <iostream>\n\n// Function to calculate factorial\nint factorial(int n) {\n    if (n == 0 || n == 1) {\n        return 1;\n    } else {\n        return n * factorial(n - 1);\n    }\n}\n\nint main() {\n    int num;\n    std::cout << "Enter a number: ";\n    std::cin >> num;\n\n    // Calculate factorial\n    int result = factorial(num);\n\n    std::cout << "Factorial of " << num << " is " << result << std::endl;\n\n    return 0;\n}\n```\n\nIn this code, the `factorial` function is defined to calculate the factorial of a given number `n`. It uses recursion to repeatedly multiply `n` with the factorial of `n-1` until `n` becomes 0 or 1. The `main` function prompts the user to enter a number, calls the `factorial` function, and displays the result.'}[0m
+[32m2023-10-16 22:18:54.962[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m48[0m - [1m{'text': 'factorial of a number', 'lang': 'C++', 'code': 'Certainly! Here\'s a code snippet that calculates the factorial of a number in C++:\n\n```cpp\n#include <iostream>\n\n// Function to calculate factorial\nint factorial(int n) {\n    if (n == 0 || n == 1) {\n        return 1;\n    } else {\n        return n * factorial(n - 1);\n    }\n}\n\nint main() {\n    int num;\n    std::cout << "Enter a number: ";\n    std::cin >> num;\n\n    // Calculate factorial\n    int result = factorial(num);\n\n    std::cout << "Factorial of " << num << " is " << result << std::endl;\n\n    return 0;\n}\n```\n\nIn this code, the `factorial` function is defined to calculate the factorial of a given number `n`. It uses recursion to repeatedly multiply `n` with the factorial of `n-1` until `n` becomes 0 or 1. The `main` function prompts the user to enter a number, calls the `factorial` function, and displays the result.'}[0m
+
+
+[1m> Entering new LLMChain chain...[0m
+Prompt after formatting:
+[32;1m[1;3mYou are a helpful assistant that generates add of 2 numbers code in Python.[0m
+
+
+[1m> Entering new LLMChain chain...[0m
+Prompt after formatting:
+[32;1m[1;3mYou are a helpful assistant that generates add of 2 numbers code in Python.[0m
+
+
+[1m> Entering new LLMChain chain...[0m
+Prompt after formatting:
+[32;1m[1;3mYou are a helpful assistant that generates add of 2 numbers code in Python.[0m
+
+
+[1m> Entering new LLMChain chain...[0m
+Prompt after formatting:
+[32;1m[1;3mYou are a helpful assistant that generates add two numbers code in Python.[0m
+
+[1m> Finished chain.[0m
+[32m2023-10-16 22:24:00.186[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m48[0m - [1m{'text': 'Certainly! Here\'s a simple Python code that adds two numbers together:\n\n```python\n# Taking input from the user\nnum1 = float(input("Enter the first number: "))\nnum2 = float(input("Enter the second number: "))\n\n# Adding the two numbers\nsum = num1 + num2\n\n# Displaying the result\nprint("The sum of", num1, "and", num2, "is", sum)\n```\n\nYou can run this code and it will prompt you to enter two numbers. After you provide the input, it will calculate the sum and display the result.', 'lang': 'Python'}[0m
+[32m2023-10-16 22:24:00.186[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m48[0m - [1m{'text': 'Certainly! Here\'s a simple Python code that adds two numbers together:\n\n```python\n# Taking input from the user\nnum1 = float(input("Enter the first number: "))\nnum2 = float(input("Enter the second number: "))\n\n# Adding the two numbers\nsum = num1 + num2\n\n# Displaying the result\nprint("The sum of", num1, "and", num2, "is", sum)\n```\n\nYou can run this code and it will prompt you to enter two numbers. After you provide the input, it will calculate the sum and display the result.', 'lang': 'Python'}[0m
+[32m2023-10-16 22:24:00.186[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m48[0m - [1m{'text': 'Certainly! Here\'s a simple Python code that adds two numbers together:\n\n```python\n# Taking input from the user\nnum1 = float(input("Enter the first number: "))\nnum2 = float(input("Enter the second number: "))\n\n# Adding the two numbers\nsum = num1 + num2\n\n# Displaying the result\nprint("The sum of", num1, "and", num2, "is", sum)\n```\n\nYou can run this code and it will prompt you to enter two numbers. After you provide the input, it will calculate the sum and display the result.', 'lang': 'Python'}[0m
+
+
+[1m> Entering new LLMChain chain...[0m
+Prompt after formatting:
+[32;1m[1;3mYou are a helpful assistant that generates addition, multiplication, division, substraction for two numbers code in C++.[0m
+
+[1m> Finished chain.[0m
+[32m2023-10-16 22:29:09.082[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m48[0m - [1m{'text': 'Sure! Here\'s an example code in C++ that generates addition, multiplication, division, and subtraction for two numbers:\n\n```cpp\n#include <iostream>\n\nint main() {\n    int num1, num2;\n    \n    // Input two numbers\n    std::cout << "Enter the first number: ";\n    std::cin >> num1;\n    \n    std::cout << "Enter the second number: ";\n    std::cin >> num2;\n    \n    // Addition\n    int sum = num1 + num2;\n    std::cout << "Addition: " << num1 << " + " << num2 << " = " << sum << std::endl;\n    \n    // Subtraction\n    int diff = num1 - num2;\n    std::cout << "Subtraction: " << num1 << " - " << num2 << " = " << diff << std::endl;\n    \n    // Multiplication\n    int product = num1 * num2;\n    std::cout << "Multiplication: " << num1 << " * " << num2 << " = " << product << std::endl;\n    \n    // Division\n    if (num2 != 0) {\n        float quotient = static_cast<float>(num1) / num2;\n        std::cout << "Division: " << num1 << " / " << num2 << " = " << quotient << std::endl;\n    } else {\n        std::cout << "Division by zero is undefined." << std::endl;\n    }\n    \n    return 0;\n}\n```\n\nThis code prompts the user to enter two numbers, performs addition, subtraction, multiplication, and division on those numbers, and displays the results. Note that the division operation checks for division by zero to avoid undefined behavior.', 'lang': 'C++'}[0m
+[32m2023-10-16 22:29:09.082[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m48[0m - [1m{'text': 'Sure! Here\'s an example code in C++ that generates addition, multiplication, division, and subtraction for two numbers:\n\n```cpp\n#include <iostream>\n\nint main() {\n    int num1, num2;\n    \n    // Input two numbers\n    std::cout << "Enter the first number: ";\n    std::cin >> num1;\n    \n    std::cout << "Enter the second number: ";\n    std::cin >> num2;\n    \n    // Addition\n    int sum = num1 + num2;\n    std::cout << "Addition: " << num1 << " + " << num2 << " = " << sum << std::endl;\n    \n    // Subtraction\n    int diff = num1 - num2;\n    std::cout << "Subtraction: " << num1 << " - " << num2 << " = " << diff << std::endl;\n    \n    // Multiplication\n    int product = num1 * num2;\n    std::cout << "Multiplication: " << num1 << " * " << num2 << " = " << product << std::endl;\n    \n    // Division\n    if (num2 != 0) {\n        float quotient = static_cast<float>(num1) / num2;\n        std::cout << "Division: " << num1 << " / " << num2 << " = " << quotient << std::endl;\n    } else {\n        std::cout << "Division by zero is undefined." << std::endl;\n    }\n    \n    return 0;\n}\n```\n\nThis code prompts the user to enter two numbers, performs addition, subtraction, multiplication, and division on those numbers, and displays the results. Note that the division operation checks for division by zero to avoid undefined behavior.', 'lang': 'C++'}[0m
+[32m2023-10-16 22:29:09.082[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m48[0m - [1m{'text': 'Sure! Here\'s an example code in C++ that generates addition, multiplication, division, and subtraction for two numbers:\n\n```cpp\n#include <iostream>\n\nint main() {\n    int num1, num2;\n    \n    // Input two numbers\n    std::cout << "Enter the first number: ";\n    std::cin >> num1;\n    \n    std::cout << "Enter the second number: ";\n    std::cin >> num2;\n    \n    // Addition\n    int sum = num1 + num2;\n    std::cout << "Addition: " << num1 << " + " << num2 << " = " << sum << std::endl;\n    \n    // Subtraction\n    int diff = num1 - num2;\n    std::cout << "Subtraction: " << num1 << " - " << num2 << " = " << diff << std::endl;\n    \n    // Multiplication\n    int product = num1 * num2;\n    std::cout << "Multiplication: " << num1 << " * " << num2 << " = " << product << std::endl;\n    \n    // Division\n    if (num2 != 0) {\n        float quotient = static_cast<float>(num1) / num2;\n        std::cout << "Division: " << num1 << " / " << num2 << " = " << quotient << std::endl;\n    } else {\n        std::cout << "Division by zero is undefined." << std::endl;\n    }\n    \n    return 0;\n}\n```\n\nThis code prompts the user to enter two numbers, performs addition, subtraction, multiplication, and division on those numbers, and displays the results. Note that the division operation checks for division by zero to avoid undefined behavior.', 'lang': 'C++'}[0m
+[32m2023-10-16 22:29:09.082[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m48[0m - [1m{'text': 'Sure! Here\'s an example code in C++ that generates addition, multiplication, division, and subtraction for two numbers:\n\n```cpp\n#include <iostream>\n\nint main() {\n    int num1, num2;\n    \n    // Input two numbers\n    std::cout << "Enter the first number: ";\n    std::cin >> num1;\n    \n    std::cout << "Enter the second number: ";\n    std::cin >> num2;\n    \n    // Addition\n    int sum = num1 + num2;\n    std::cout << "Addition: " << num1 << " + " << num2 << " = " << sum << std::endl;\n    \n    // Subtraction\n    int diff = num1 - num2;\n    std::cout << "Subtraction: " << num1 << " - " << num2 << " = " << diff << std::endl;\n    \n    // Multiplication\n    int product = num1 * num2;\n    std::cout << "Multiplication: " << num1 << " * " << num2 << " = " << product << std::endl;\n    \n    // Division\n    if (num2 != 0) {\n        float quotient = static_cast<float>(num1) / num2;\n        std::cout << "Division: " << num1 << " / " << num2 << " = " << quotient << std::endl;\n    } else {\n        std::cout << "Division by zero is undefined." << std::endl;\n    }\n    \n    return 0;\n}\n```\n\nThis code prompts the user to enter two numbers, performs addition, subtraction, multiplication, and division on those numbers, and displays the results. Note that the division operation checks for division by zero to avoid undefined behavior.', 'lang': 'C++'}[0m
+[32m2023-10-16 22:29:09.082[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m48[0m - [1m{'text': 'Sure! Here\'s an example code in C++ that generates addition, multiplication, division, and subtraction for two numbers:\n\n```cpp\n#include <iostream>\n\nint main() {\n    int num1, num2;\n    \n    // Input two numbers\n    std::cout << "Enter the first number: ";\n    std::cin >> num1;\n    \n    std::cout << "Enter the second number: ";\n    std::cin >> num2;\n    \n    // Addition\n    int sum = num1 + num2;\n    std::cout << "Addition: " << num1 << " + " << num2 << " = " << sum << std::endl;\n    \n    // Subtraction\n    int diff = num1 - num2;\n    std::cout << "Subtraction: " << num1 << " - " << num2 << " = " << diff << std::endl;\n    \n    // Multiplication\n    int product = num1 * num2;\n    std::cout << "Multiplication: " << num1 << " * " << num2 << " = " << product << std::endl;\n    \n    // Division\n    if (num2 != 0) {\n        float quotient = static_cast<float>(num1) / num2;\n        std::cout << "Division: " << num1 << " / " << num2 << " = " << quotient << std::endl;\n    } else {\n        std::cout << "Division by zero is undefined." << std::endl;\n    }\n    \n    return 0;\n}\n```\n\nThis code prompts the user to enter two numbers, performs addition, subtraction, multiplication, and division on those numbers, and displays the results. Note that the division operation checks for division by zero to avoid undefined behavior.', 'lang': 'C++'}[0m
+[32m2023-10-16 22:29:09.082[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m48[0m - [1m{'text': 'Sure! Here\'s an example code in C++ that generates addition, multiplication, division, and subtraction for two numbers:\n\n```cpp\n#include <iostream>\n\nint main() {\n    int num1, num2;\n    \n    // Input two numbers\n    std::cout << "Enter the first number: ";\n    std::cin >> num1;\n    \n    std::cout << "Enter the second number: ";\n    std::cin >> num2;\n    \n    // Addition\n    int sum = num1 + num2;\n    std::cout << "Addition: " << num1 << " + " << num2 << " = " << sum << std::endl;\n    \n    // Subtraction\n    int diff = num1 - num2;\n    std::cout << "Subtraction: " << num1 << " - " << num2 << " = " << diff << std::endl;\n    \n    // Multiplication\n    int product = num1 * num2;\n    std::cout << "Multiplication: " << num1 << " * " << num2 << " = " << product << std::endl;\n    \n    // Division\n    if (num2 != 0) {\n        float quotient = static_cast<float>(num1) / num2;\n        std::cout << "Division: " << num1 << " / " << num2 << " = " << quotient << std::endl;\n    } else {\n        std::cout << "Division by zero is undefined." << std::endl;\n    }\n    \n    return 0;\n}\n```\n\nThis code prompts the user to enter two numbers, performs addition, subtraction, multiplication, and division on those numbers, and displays the results. Note that the division operation checks for division by zero to avoid undefined behavior.', 'lang': 'C++'}[0m
+[32m2023-10-16 22:29:09.082[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m48[0m - [1m{'text': 'Sure! Here\'s an example code in C++ that generates addition, multiplication, division, and subtraction for two numbers:\n\n```cpp\n#include <iostream>\n\nint main() {\n    int num1, num2;\n    \n    // Input two numbers\n    std::cout << "Enter the first number: ";\n    std::cin >> num1;\n    \n    std::cout << "Enter the second number: ";\n    std::cin >> num2;\n    \n    // Addition\n    int sum = num1 + num2;\n    std::cout << "Addition: " << num1 << " + " << num2 << " = " << sum << std::endl;\n    \n    // Subtraction\n    int diff = num1 - num2;\n    std::cout << "Subtraction: " << num1 << " - " << num2 << " = " << diff << std::endl;\n    \n    // Multiplication\n    int product = num1 * num2;\n    std::cout << "Multiplication: " << num1 << " * " << num2 << " = " << product << std::endl;\n    \n    // Division\n    if (num2 != 0) {\n        float quotient = static_cast<float>(num1) / num2;\n        std::cout << "Division: " << num1 << " / " << num2 << " = " << quotient << std::endl;\n    } else {\n        std::cout << "Division by zero is undefined." << std::endl;\n    }\n    \n    return 0;\n}\n```\n\nThis code prompts the user to enter two numbers, performs addition, subtraction, multiplication, and division on those numbers, and displays the results. Note that the division operation checks for division by zero to avoid undefined behavior.', 'lang': 'C++'}[0m
+[32m2023-10-16 22:29:09.082[0m | [1mINFO    [0m | [36m__main__[0m:[36m<module>[0m:[36m48[0m - [1m{'text': 'Sure! Here\'s an example code in C++ that generates addition, multiplication, division, and subtraction for two numbers:\n\n```cpp\n#include <iostream>\n\nint main() {\n    int num1, num2;\n    \n    // Input two numbers\n    std::cout << "Enter the first number: ";\n    std::cin >> num1;\n    \n    std::cout << "Enter the second number: ";\n    std::cin >> num2;\n    \n    // Addition\n    int sum = num1 + num2;\n    std::cout << "Addition: " << num1 << " + " << num2 << " = " << sum << std::endl;\n    \n    // Subtraction\n    int diff = num1 - num2;\n    std::cout << "Subtraction: " << num1 << " - " << num2 << " = " << diff << std::endl;\n    \n    // Multiplication\n    int product = num1 * num2;\n    std::cout << "Multiplication: " << num1 << " * " << num2 << " = " << product << std::endl;\n    \n    // Division\n    if (num2 != 0) {\n        float quotient = static_cast<float>(num1) / num2;\n        std::cout << "Division: " << num1 << " / " << num2 << " = " << quotient << std::endl;\n    } else {\n        std::cout << "Division by zero is undefined." << std::endl;\n    }\n    \n    return 0;\n}\n```\n\nThis code prompts the user to enter two numbers, performs addition, subtraction, multiplication, and division on those numbers, and displays the results. Note that the division operation checks for division by zero to avoid undefined behavior.', 'lang': 'C++'}[0m
+
+
+[1m> Entering new LLMChain chain...[0m
+Prompt after formatting:
+[32;1m[1;3mYou are a helpful assistant that generates add two number code in java.[0m
+
+[1m> Finished chain.[0m
+[32m2023-10-17 11:50:07.850[0m | [1mINFO    [0m | [36mlangchainhelper[0m:[36mcode_generator[0m:[36m38[0m - [1m{'code_text': 'add two number', 'language': 'java', 'code': 'Certainly! Here\'s a simple code snippet in Java that adds two numbers:\n\n```java\nimport java.util.Scanner;\n\npublic class AddTwoNumbers {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n\n        System.out.print("Enter the first number: ");\n        int num1 = scanner.nextInt();\n\n        System.out.print("Enter the second number: ");\n        int num2 = scanner.nextInt();\n\n        int sum = num1 + num2;\n        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);\n\n        scanner.close();\n    }\n}\n```\n\nThis code prompts the user to enter two numbers, adds them together, and then displays the sum.'}[0m
